@@ -26,15 +26,14 @@ header{
 
 /*Requirement 4*/
 .price{
-    min-height: 500px;
-    /*Your code here*/
-    /*You must use flex.
-    /*Don't forget to vertically and horizontally 
-    align the element*/
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    justify-content: center;
+  min-height: 500px;
+  /*You must use flex.
+  /*Don't forget to vertically and horizontally 
+  align the element*/
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 /*Requirement 5*/
@@ -43,7 +42,6 @@ header{
   background: #fff;
   border-radius: 7px;
   padding: 0 0 50px 0;
-  /*Your code here.*/
   /*Take a look at flex-basis*/
   flex-basis: 400px;
 }
@@ -62,7 +60,6 @@ HAVE THE SELECTOR */
 /*Requirement 7*/
 .gallery{
   min-height: 600px;
-  /*Your code here again.*/
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -80,7 +77,6 @@ HAVE THE SELECTOR */
 
 /*Requirement 9*/
 #logo{
-   /*Your code here.*/
   animation-name: logo_grow;
   animation-duration: 15s;
   animation-iteration-count: 1;
@@ -110,7 +106,6 @@ HAVE THE SELECTOR */
 } 
 
 @media screen and (min-width: 850px){
-
   /*Requirement 10*/
   header{
     flex-direction: row;
@@ -125,13 +120,12 @@ HAVE THE SELECTOR */
 
   /*Requirement 11*/
   .package {
-    flex-basis: 320px;
+    flex-basis: 230px;
   } 
 }
 
 /*Requirement 12*/
 /*Add media query to handle reduced-motion*/
-/*Your code here again.*/ 
 @media screen and (prefers-reduced-motion: reduce){
   #logo{
       animation: none;
@@ -139,7 +133,6 @@ HAVE THE SELECTOR */
 }
 
 @media print { 
-
   /*Requirement 13*/
   body{
     background: none;
@@ -170,6 +163,5 @@ HAVE THE SELECTOR */
   #gallery, .gallery{
     display: none;
   }
- 
 }
 
