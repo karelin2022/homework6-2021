@@ -145,7 +145,7 @@ HAVE THE SELECTOR */
   /*Requirement 15*/
   .nav_links{
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-around;
   }
 
   /*Requirement 16*/
